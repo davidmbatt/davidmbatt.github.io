@@ -6,10 +6,19 @@
 
 <style>
 #header {
-	padding: 15px;
+	padding: 16px;
 	text-align: center;
 	font-size: 50px;
-	border-style: solid
+	border-style: solid;
+}
+#footer {
+	padding: 16px;
+	text-align: center;
+	border-top: solid;
+}
+nav {
+	margin-top: 5px;
+	font-size: 14px;
 }
 #image {
 	width: 500px;
@@ -19,13 +28,22 @@
 }
 #div1 {
 	margin-top:20px;
-	height:250px;
-	width:460px;
-	padding:20px;
+	min-height:100px;
+	width:500px;
+	padding:1px;
 	margin-left:auto;
 	margin-right:auto;
 	font-family:Baskerville;
 	font-size:24px;
+	<!--border: 1px solid black-->;
+}
+table, td, th {
+  table-layout: fixed;
+  width: 100%;
+  height: 50px;
+  text-align:center;
+  <!--border: 1px solid black;
+  border-collapse: collapse;-->
 }
 </style>
 
@@ -33,28 +51,50 @@
 
 <header id="header">
 	<em>Exactitude in Science</em>
-	<p style="font-size:12px">
-		<a href="about.html">about</a>
-	</p>
-	<p style="text-align:center;font-size:16px">
-		A website created by David M. Batt for publishing work and research.
-	</p>
+	<nav>
+		<a href="mailto:davidmbatt@gmail.com">Contact</a>&nbsp;&nbsp;|&nbsp;
+    	<a href="/index.html">Home</a>
+	</nav>
 </header>
 
 <p style="text-align:center">
-	<img src="https://4.bp.blogspot.com/-_v0Xey8L4Dw/Vti-BaEPiII/AAAAAAAAAK8/0MlQZvTul_k/s1600/work.jpg" alt="Work" id="image">
+	<img src="https://1.bp.blogspot.com/-qZwuShhRcas/XpGR-yvdqKI/AAAAAAAABIo/fYnNkMRjXGkZjfRHfQqRfh2jHJAZrDFbACLcBGAsYHQ/s1600/37300003.jpg" alt="Church" id="image">
 </p>
 
 <div id="div1">
-	<p style="text-align:center;"><a href="cv.html">Curriculum Vitae</a></p>
-	<p style="text-align:left;">Research</p>
-	<p style="text-align:right;"><a href="translations/translations.html">Translations</a></p>
-	<p style="text-align:center;"><a href="readings.html">Readings</a></p></p>
+	<table>
+		<tr>
+			<td colspan="3"><a href="cv/cv.html">Curriculum Vitae</a></td>
+		<tr>
+		<tr>
+			<td style="text-align:left"><a href="about_1/about_1.html">About 1</a></td>
+			<td></td>
+			<td></td>
+		<tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td style="text-align:right"><a href="translations/translations.html">Translations</a></td>
+		<tr>
+		<tr>
+			<td style="text-align:left">About 2</td>
+			<td><a href="http://exactitudeinscience.blogspot.com">Photos</td>
+			<td></td>
+		<tr>
+	</table>
 </div>
 
 <p style="text-align:center">
-<img src="https://3.bp.blogspot.com/-nLs_Tbdy60A/Vt5oLfVbb2I/AAAAAAAAATE/Ldrr9CBXWSI/s1600/outside%2Btelescope.jpg" alt="Outside Telescope" id="image">
+<img src="https://1.bp.blogspot.com/-L0ViAc-S_B4/YY4e-VOMY1I/AAAAAAAABjE/22xKA3PTLo0DsY6BG0wEcT0iH9uwhtv0gCLcBGAsYHQ/s0/000008.JPG" alt="" id="image">
 </p>
+
+<footer id="footer">
+	<nav>
+		<a href="mailto:davidmbatt@gmail.com">Contact</a>&nbsp;&nbsp;|&nbsp;
+		<a href="#">Top of page</a>&nbsp;&nbsp;|&nbsp;
+    	<a href="/index.html">Home</a>
+	</nav>
+</footer>
 
 </body>
 </html>
