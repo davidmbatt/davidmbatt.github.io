@@ -1,0 +1,11 @@
+./index.html
+./about_1/about_1.html
+./about_me/about_me.html
+./readings.html
+./cv/cv.html
+./translations/georges_canguilhem/EHPS/EHPS_GB1.html
+./translations/unknown/nisi_dominus/nisi_dominus.html
+./translations/translations.html
+./translations/francis_jammes/island_of_fathers/island_of_fathers.html
+./translations/georges_gusdorf/explication.html
+./translations/georges_gusdorf/hhs/hhs_vol1_ch1.html
