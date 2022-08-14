@@ -1,6 +1,5 @@
 https://davidmbatt.github.io/index.html
 https://davidmbatt.github.io/about_1/about_1.html
-https://davidmbatt.github.io/drafts
 https://davidmbatt.github.io/about_me/about_me.html
 https://davidmbatt.github.io/cv/cv.html
 https://davidmbatt.github.io/translations/georges_canguilhem/EHPS/EHPS_GB1.html

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-find . -name 'drafts' -prune -o -name '*.html' > temp.txt
+find . -name '*.html' -not -path './drafts/*' > temp.txt
 
 sed 's/./https:\/\/davidmbatt.github.io/' temp.txt > sitemap.txt
 
